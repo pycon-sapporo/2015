@@ -168,9 +168,9 @@ h1{
 }
 
 #sponsors{background: #eee;}
-#meaning,#entry{background: #f46ba0;}
+#meaning,#lt{background: #f46ba0;}
 #summary,#staff{background: #82d9e6;}
-#sponsor{background: #c4ea5f;}
+#entry{background: #c4ea5f;}
 #guest{background: #ffed75;}
 #share{background: #f7f7f7;}
 #timetable{background: #ffc360;}
@@ -205,6 +205,17 @@ dt{
 	width: 150px;
 	padding: 20px;
 	background: #a1f0ff;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+
+#lt dt{
+	box-sizing: border-box;
+	float: left;
+	clear: both;
+	width: 150px;
+	padding: 20px;
+	background: #efc6d5;
 	margin-bottom: 2px;
 	font-weight: bold;
 }
@@ -344,8 +355,9 @@ dd{
 	display: table-cell;
 	box-sizing: border-box;
 	padding: 20px;
+	padding-right: 0;
 	vertical-align: middle;
-	width: 150px;
+	width: 130px;
 	font-weight: bold;
 	background: #f7f7f7;
 }
@@ -353,9 +365,9 @@ dd{
 .timetable-name{
 	display: table-cell;
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 20px 10px;
 	vertical-align: middle;
-	width: 150px;
+	width: 170px;
 	text-align: center;
 	background: #f7f7f7;
 }
@@ -549,6 +561,18 @@ footer{
 		width: 100%;
 		float: none;
 	}
+
+#lt dt{
+		margin-bottom: 0;
+	}
+	#lt dd{
+		margin-bottom: 20px;
+	}
+	#lt dt,dd{
+		width: 100%;
+		float: none;
+	}
+
 	.sponsor-list li{
 		display: block;
 		width: 100%;
